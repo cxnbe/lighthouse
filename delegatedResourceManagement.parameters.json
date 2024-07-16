@@ -1,0 +1,104 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2018-05-01/subscriptionDeploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "mspOfferName": {
+            "value": "ConXioN Azure Managed Services"
+        },
+        "mspOfferDescription": {
+            "value": "ConXioN begeleidt en inspireert haar klanten in hun digitale transformatie op tal van domeinen zoals data en AI, modern workplace, infrastructuur en cloud, softwareapplicaties, cybersecurity, connectiviteit en managed services. Dit mede dankzij sterke partnerships met onder andere Microsoft, HP, Hewlett Packard Enterprise, Sentinel One, Cisco en Fortinet, waarmee ConXioN een voortrekkersrol speelt in IT-innovatie en onderzoek."
+        },
+        "managedByTenantId": {
+            "value": "a4346625-ecc9-4a10-bb76-26184a0e862b"
+        },
+        "authorizations": {
+            "value": [
+                {
+                    "principalId": "81c51b9e-4bb4-47c3-824f-1a736db488f6",
+                    "principalIdDisplayName": "ConXioN Tier 1 Support",
+                    "roleDefinitionId": "acdd72a7-3385-48ef-bd42-f606fba81ae7"
+                },
+                {
+                    "principalId": "81c51b9e-4bb4-47c3-824f-1a736db488f6",
+                    "principalIdDisplayName": "ConXioN Tier 1 Support",
+                    "roleDefinitionId": "0e5f05e5-9ab9-446b-b98d-1e2157c94125"
+                },
+                {
+                    "principalId": "81c51b9e-4bb4-47c3-824f-1a736db488f6",
+                    "principalIdDisplayName": "ConXioN Tier 1 Support",
+                    "roleDefinitionId": "cfd33db0-3dd1-45e3-aa9d-cdbdf3b6f24e"
+                },
+                {
+                    "principalId": "7b777339-678f-4174-b88b-696b86e27337",
+                    "principalIdDisplayName": "ConXioN Monitor",
+                    "roleDefinitionId": "acdd72a7-3385-48ef-bd42-f606fba81ae7"
+                },
+                {
+                    "principalId": "03692c49-2e3e-4921-846e-c8eaad076b86",
+                    "principalIdDisplayName": "ConXioN Service Automation",
+                    "roleDefinitionId": "b24988ac-6180-42a0-ab88-20f7382dd24c"
+                },
+                {
+                    "principalId": "03692c49-2e3e-4921-846e-c8eaad076b86",
+                    "principalIdDisplayName": "ConXioN Service Automation",
+                    "roleDefinitionId": "437d2ced-4a38-4302-8479-ed2bcb43d090"
+                },
+                {
+                    "principalId": "03692c49-2e3e-4921-846e-c8eaad076b86",
+                    "principalIdDisplayName": "ConXioN Service Automation",
+                    "roleDefinitionId": "f1a07417-d97a-45cb-824c-7a7467783830"
+                },
+                {
+                    "principalId": "03692c49-2e3e-4921-846e-c8eaad076b86",
+                    "principalIdDisplayName": "ConXioN Service Automation",
+                    "roleDefinitionId": "18d7d88d-d35e-4fb5-a5c3-7773c20a72d9",
+                    "delegatedRoleDefinitionIds": [
+                        "b24988ac-6180-42a0-ab88-20f7382dd24c",
+                        "92aaf0da-9dab-42b6-94a3-d43ce8d16293",
+                        "91c1777a-f3dc-4fae-b103-61d183457e46"
+                    ]
+                }
+            ]
+        },
+        "eligibleAuthorizations": {
+            "value": [
+                {
+                    "justInTimeAccessPolicy": {
+                        "multiFactorAuthProvider": "Azure",
+                        "maximumActivationDuration": "PT8H"
+                    },
+                    "principalId": "a7414388-2931-40fb-8d01-441f4cf9728d",
+                    "principalIdDisplayName": "ConXioN Tier 2 Support",
+                    "roleDefinitionId": "9980e02c-c2be-4d73-94e8-173b1dc7cf3c"
+                },
+                {
+                    "justInTimeAccessPolicy": {
+                        "multiFactorAuthProvider": "Azure",
+                        "maximumActivationDuration": "PT8H"
+                    },
+                    "principalId": "a7414388-2931-40fb-8d01-441f4cf9728d",
+                    "principalIdDisplayName": "ConXioN Tier 2 Support",
+                    "roleDefinitionId": "92aaf0da-9dab-42b6-94a3-d43ce8d16293"
+                },
+                {
+                    "justInTimeAccessPolicy": {
+                        "multiFactorAuthProvider": "Azure",
+                        "maximumActivationDuration": "PT4H"
+                    },
+                    "principalId": "813990ae-4413-4fa1-952c-ebf38dedf49c",
+                    "principalIdDisplayName": "ConXioN Governance",
+                    "roleDefinitionId": "b24988ac-6180-42a0-ab88-20f7382dd24c"
+                },
+                {
+                    "justInTimeAccessPolicy": {
+                        "multiFactorAuthProvider": "Azure",
+                        "maximumActivationDuration": "PT4H"
+                    },
+                    "principalId": "813990ae-4413-4fa1-952c-ebf38dedf49c",
+                    "principalIdDisplayName": "ConXioN Governance",
+                    "roleDefinitionId": "91c1777a-f3dc-4fae-b103-61d183457e46"
+                }
+            ]
+        }
+    }
+}
