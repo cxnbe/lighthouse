@@ -83,6 +83,24 @@
                 {
                     "justInTimeAccessPolicy": {
                         "multiFactorAuthProvider": "Azure",
+                        "maximumActivationDuration": "PT8H"
+                    },
+                    "principalId": "a7414388-2931-40fb-8d01-441f4cf9728d",
+                    "principalIdDisplayName": "ConXioN Tier 2 Support",
+                    "roleDefinitionId": "4fe576fe-1146-4730-92eb-48519fa6bf9f"
+                },
+                {
+                    "justInTimeAccessPolicy": {
+                        "multiFactorAuthProvider": "Azure",
+                        "maximumActivationDuration": "PT4H"
+                    },
+                    "principalId": "a7414388-2931-40fb-8d01-441f4cf9728d",
+                    "principalIdDisplayName": "ConXioN Tier 2 Support",
+                    "roleDefinitionId": "00c29273-979b-4161-815c-10b084fb9324"
+                },
+                {
+                    "justInTimeAccessPolicy": {
+                        "multiFactorAuthProvider": "Azure",
                         "maximumActivationDuration": "PT4H"
                     },
                     "principalId": "813990ae-4413-4fa1-952c-ebf38dedf49c",
@@ -97,6 +115,15 @@
                     "principalId": "813990ae-4413-4fa1-952c-ebf38dedf49c",
                     "principalIdDisplayName": "ConXioN Governance",
                     "roleDefinitionId": "91c1777a-f3dc-4fae-b103-61d183457e46"
+                },
+                {
+                    "justInTimeAccessPolicy": {
+                        "multiFactorAuthProvider": "Azure",
+                        "maximumActivationDuration": "PT4H"
+                    },
+                    "principalId": "813990ae-4413-4fa1-952c-ebf38dedf49c",
+                    "principalIdDisplayName": "ConXioN Governance",
+                    "roleDefinitionId": "36243c78-bf99-498c-9df9-86d9f8d28608"
                 }
             ]
         }
